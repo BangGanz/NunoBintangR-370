@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Preksu - Ayam Keju Mozza</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+    }
+
+    .top-nav {
+      background: #f9f9f9;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 40px;
+    }
+
+    .top-nav img.logo {
+      height: 50px;
+    }
+
+    .top-nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      margin: 0 40px;
+      padding: 0;
+    }
+
+    .top-nav li {
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      flex: 1;
+      text-align: center;
+    }
+
+    .top-nav a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .detail {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 20px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .detail img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .detail-text {
+      max-width: 600px;
+    }
+
+    .detail-text h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .detail-text p {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #b10000;
+      margin: 10px 0 20px;
+    }
+
+    .detail-text a.button {
+      display: inline-block;
+      background-color: #b10000;
+      color: white;
+      text-decoration: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .detail-text a.button:hover {
+      background-color: #800000;
+    }
+
+    @media (max-width: 768px) {
+      .top-nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .detail {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .detail-text {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="top-nav">
+    <a href="../index.html">
+      <img src="../images/logo-preksu.png" alt="Logo Preksu" class="logo">
+    </a>
+    <ul>
+      <li><a href="../index.html#menu">🍽️ OUR MENU</a></li>
+      <li><a href="../index.html#promo">🌶️ PROMO</a></li>
+      <li><a href="../index.html#contact">📞 CONTACT US</a></li>
+      <li><a href="https://maps.app.goo.gl/r3dvvCoDPz2RnaMr6" target="_blank">📍 LOCATION</a></li>
+    </ul>
+  </header>
+
+  <!-- DETAIL AYAM KEJU MOZZA -->
+  <section class="detail">
+    <img src="../images/ayam-keju-mozza.jpg" alt="Ayam Keju Mozza">
+    <div class="detail-text">
+      <h1>Ayam Keju Mozza</h1>
+      <p>
+        Sensasi lumer di setiap gigitan! Ayam Keju Mozza adalah pilihan favorit pecinta keju, dengan lapisan keju mozzarella meleleh yang menutupi ayam goreng renyah.
+      </p>
+      <p>
+        Dipadukan dengan saus spesial Preksu yang gurih dan creamy, menu ini memadukan tekstur crunchy dan lembut dalam harmoni sempurna. Sajian lezat yang cocok untuk lidah modern.
+      </p>
+      <p class="price">Harga mulai dari Rp 32.000</p>
+      <a href="https://maps.app.goo.gl/r3dvvCoDPz2RnaMr6" class="button" target="_blank">Pesan Sekarang</a>
+    </div>
+  </section>
+
+</body>
+</html>
